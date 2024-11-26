@@ -4,13 +4,13 @@ const Navbar = () => {
       <nav className="navbar">
         <ul className="nav-links">
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Plans</a>
+            <a href="#plans">Plans</a>
           </li>
           <li>
-            <a href="#">Contacts</a>
+            <a href="#contacts">Contacts</a>
           </li>
         </ul>
       </nav>

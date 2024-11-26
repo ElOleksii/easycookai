@@ -1,23 +1,23 @@
 import Container from "./UI/Container";
 import Pricing from "./UI/Pricing";
 import SectionTitle from "./UI/SectionTitle";
+import { motion } from "framer-motion";
+import { sectionVariants } from "../motion";
 
 const Plans = () => {
   return (
-    <Container>
-      <div className="plans">
+    <motion.div
+      id="plans"
+      className="plans"
+      variants={sectionVariants}
+      initial="hidden"
+      animate="visible"
+    >
+      <Container>
         <SectionTitle text={"Plans"} />
-        <div className="plans-wrapper">
-          <Pricing
-            type="Enterprise"
-            price="$499"
-            subscription="year"
-            description="Perfect for large-scale businesses."
-            buttonText="Choose Enterprise"
-          ></Pricing>
-        </div>
-      </div>
-    </Container>
+        <Pricing />
+      </Container>
+    </motion.div>
   );
 };
 

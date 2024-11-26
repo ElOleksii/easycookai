@@ -4,6 +4,8 @@ import HeroSection from "./components/HeroSection";
 import ValueSection from "./components/ValueSection";
 import HowToCookSection from "./components/HowToCookSection";
 import Plans from "./components/Plans";
+import TryItSection from "./components/TryItSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <ValueSection />
       <HowToCookSection />
       <Plans />
+      <TryItSection />
+      <Footer />
     </>
   );
 }
