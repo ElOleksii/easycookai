@@ -46,8 +46,8 @@ const HeroSection = () => {
           Your personal AI culinary assistant
         </motion.p>
         <motion.div className="download-btn-wrapper" variants={childVariants}>
-          <DownloadButton icon={appleStore} text={"Download on Google Play"} />
-          <DownloadButton icon={playStore} text={"Download on App Store"} />
+          <DownloadButton icon={playStore} text={"Download on Google Play"} />
+          <DownloadButton icon={appleStore} text={"Download on App Store"} />
         </motion.div>
       </motion.div>
     </motion.section>
